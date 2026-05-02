@@ -146,7 +146,7 @@ def mxliff_to_excel(input_file, output_file):
             "alt-trans2-origin": altTransList[1]["origin"] if len(altTransList) > 1 else "",
             "alt-trans2-match-quality": altTransList[1]["match-quality"] if len(altTransList) > 1 else "",
             "alt-trans2-text": altTransList[1]["text"] if len(altTransList) > 1 else "",
-            "alt-trans1-tm-id": altTransList[1]["tm-id"] if len(altTransList) > 0 else "",
+            "alt-trans2-tm-id": altTransList[1]["tm-id"] if len(altTransList) > 1 else "",
         })
 
     # Write headers
